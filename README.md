@@ -28,7 +28,13 @@ Analysis scripts for the KineticST manuscript: benchmarking, figure generation, 
 
 ## Package
 
-- `spatial_nmf_deim/` — Graph-regularized NMF with DEIM/HVG feature selection (baseline methods: DEIM+NMF, HVG+NMF, PCA+KMeans, supervised DEIM/mRMR/Laplacian/RF/LR-L1)
+Baseline methods (DEIM+NMF, HVG+NMF, PCA+KMeans, supervised DEIM/mRMR/Laplacian/RF/LR-L1) are provided by the `spatial_nmf_deim` package:
+
+```bash
+pip install git+https://github.com/whirlsyu/spatial_nmf_deim.git
+```
+
+Or clone separately: https://github.com/whirlsyu/spatial_nmf_deim
 
 ## Requirements
 
