@@ -10,6 +10,21 @@ Analysis scripts for the KineticST manuscript: benchmarking, figure generation, 
 - `make_otmode_figs.py` — OT-mode specific figures
 - `asymmetry_analysis.py` — Asymmetry analysis
 - `run_asymmetry_analysis.py` — Runner for asymmetry analysis
+- `make_fig9_e8.py` — Figure 9: SOTA comparison panels (STAGATE/SpaGCN/SpaceFlow/BayesSpace/GraphST)
+- `analysis_new_platforms.py` — New-platform analysis (MERFISH, seqFISH+, Slide-seqV2)
+- `analysis_seqfish.py` — seqFISH+ specific analysis
+- `check_sota_api.py` — SOTA method API compatibility check
+
+## SOTA Comparison (experiments/)
+
+- `run_e8_sota_official.py` — Run official implementations of STAGATE, SpaGCN, SpaceFlow, GraphST on all 25 samples
+- `run_stagate_only.py` — STAGATE-specific runner
+- `run_bayesspace.R` — BayesSpace official R implementation
+- `export_e8_bayesspace.py` — Export data for BayesSpace
+- `save_e9_sota_labels.py` — Save SOTA method labels for evaluation
+- `summarize_e8.py` — Summarize E8 SOTA comparison results
+- `merge_e2_stagate.py` — Merge STAGATE results
+- `run_e3_independent_simulation.py` — Independent simulation benchmark
 
 ## Package
 

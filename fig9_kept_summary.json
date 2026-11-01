@@ -1,0 +1,476 @@
+{
+  "labeled": [
+    {
+      "short_name": "STARmapPLUS_w05",
+      "platform": "STARmap PLUS",
+      "n_used": 3300,
+      "n_genes": 1022,
+      "K": 11,
+      "total_cells": 46184,
+      "ari": {
+        "DEIM+NMF": 0.33377876059107864,
+        "HVG+NMF": 0.3335970303334963,
+        "HVG+NMF\n(no spatial)": 0.3335970303334963,
+        "PCA+KMeans": 0.27867220604649917,
+        "KineticST": 0.5006221323982568
+      },
+      "nmi": {
+        "DEIM+NMF": 0.43718667320347215,
+        "HVG+NMF": 0.4343247283053596,
+        "HVG+NMF\n(no spatial)": 0.4343247283053596,
+        "PCA+KMeans": 0.41873461776896176,
+        "KineticST": 0.6569712972077857
+      },
+      "coh": {
+        "DEIM+NMF": 0.45622271641545176,
+        "HVG+NMF": 0.45943497240754466,
+        "HVG+NMF\n(no spatial)": 0.45943497240754466,
+        "PCA+KMeans": 0.4172638168190429,
+        "KineticST": 0.730829420970266
+      },
+      "ent": {
+        "DEIM+NMF": 0.9796399167692708,
+        "HVG+NMF": 0.9790009927416824,
+        "HVG+NMF\n(no spatial)": 0.9790009927416824,
+        "PCA+KMeans": 0.979641094509798,
+        "KineticST": 1.5566731295886853
+      },
+      "ari_base_range": [
+        0.27867220604649917,
+        0.33377876059107864
+      ],
+      "nmi_base_range": [
+        0.41873461776896176,
+        0.43718667320347215
+      ],
+      "coh_base_range": [
+        0.4172638168190429,
+        0.45943497240754466
+      ],
+      "ent_base_range": [
+        0.9790009927416824,
+        0.979641094509798
+      ],
+      "sup_best_method": "DEIM-c(1000)",
+      "sup_best_val": 2.886733213343453,
+      "sup_kin_val": 2.7057441777506686
+    },
+    {
+      "short_name": "STARmapPLUS_SC",
+      "platform": "STARmap PLUS",
+      "n_used": 1870,
+      "n_genes": 1022,
+      "K": 8,
+      "total_cells": 5849,
+      "ari": {
+        "DEIM+NMF": 0.24435162473607888,
+        "HVG+NMF": 0.21798037969517708,
+        "HVG+NMF\n(no spatial)": 0.21804815862592533,
+        "PCA+KMeans": 0.2034514462291988,
+        "KineticST": 0.2864702995840121
+      },
+      "nmi": {
+        "DEIM+NMF": 0.2822507577796956,
+        "HVG+NMF": 0.2637607193032097,
+        "HVG+NMF\n(no spatial)": 0.26358728625637096,
+        "PCA+KMeans": 0.28939138496812117,
+        "KineticST": 0.5134269697434677
+      },
+      "coh": {
+        "DEIM+NMF": 0.4324642804536751,
+        "HVG+NMF": 0.4295183384887318,
+        "HVG+NMF\n(no spatial)": 0.4280453675062601,
+        "PCA+KMeans": 0.36647518043894534,
+        "KineticST": 0.7808219178082192
+      },
+      "ent": {
+        "DEIM+NMF": 0.9531435044177683,
+        "HVG+NMF": 0.9333407703185389,
+        "HVG+NMF\n(no spatial)": 0.9340427886122115,
+        "PCA+KMeans": 0.9726806571058931,
+        "KineticST": 1.5918779706398898
+      },
+      "ari_base_range": [
+        0.2034514462291988,
+        0.24435162473607888
+      ],
+      "nmi_base_range": [
+        0.26358728625637096,
+        0.28939138496812117
+      ],
+      "coh_base_range": [
+        0.36647518043894534,
+        0.4324642804536751
+      ],
+      "ent_base_range": [
+        0.9333407703185389,
+        0.9726806571058931
+      ],
+      "sup_best_method": "DEIM-c(2000)",
+      "sup_best_val": 2.49299294653365,
+      "sup_kin_val": 1.8756361291834942
+    },
+    {
+      "short_name": "STARmapPLUS_OB",
+      "platform": "STARmap PLUS",
+      "n_used": 2100,
+      "n_genes": 1022,
+      "K": 7,
+      "total_cells": 15791,
+      "ari": {
+        "DEIM+NMF": 0.34523586507507087,
+        "HVG+NMF": 0.344137452124777,
+        "HVG+NMF\n(no spatial)": 0.344137452124777,
+        "PCA+KMeans": 0.29403444303077686,
+        "KineticST": 0.3629890088318612
+      },
+      "nmi": {
+        "DEIM+NMF": 0.43754601238808116,
+        "HVG+NMF": 0.4363663551538208,
+        "HVG+NMF\n(no spatial)": 0.4363663551538208,
+        "PCA+KMeans": 0.38804811214594004,
+        "KineticST": 0.5371322389643399
+      },
+      "coh": {
+        "DEIM+NMF": 0.5028916929547844,
+        "HVG+NMF": 0.5011829652996845,
+        "HVG+NMF\n(no spatial)": 0.5011829652996845,
+        "PCA+KMeans": 0.4541272344900105,
+        "KineticST": 0.8249211356466877
+      },
+      "ent": {
+        "DEIM+NMF": 0.9683389298014039,
+        "HVG+NMF": 0.9677327319644394,
+        "HVG+NMF\n(no spatial)": 0.9677327319644394,
+        "PCA+KMeans": 0.9740083056410825,
+        "KineticST": 1.517987845845862
+      },
+      "ari_base_range": [
+        0.29403444303077686,
+        0.34523586507507087
+      ],
+      "nmi_base_range": [
+        0.38804811214594004,
+        0.43754601238808116
+      ],
+      "coh_base_range": [
+        0.4541272344900105,
+        0.5028916929547844
+      ],
+      "ent_base_range": [
+        0.9677327319644394,
+        0.9740083056410825
+      ],
+      "sup_best_method": "DEIM-c(2000)",
+      "sup_best_val": 2.596010677071671,
+      "sup_kin_val": 2.436035841400021
+    },
+    {
+      "short_name": "STARmapPLUS_B01",
+      "platform": "STARmap PLUS",
+      "n_used": 1585,
+      "n_genes": 1022,
+      "K": 6,
+      "total_cells": 29623,
+      "ari": {
+        "DEIM+NMF": 0.2220471807954809,
+        "HVG+NMF": 0.22418027580668617,
+        "HVG+NMF\n(no spatial)": 0.22418027580668617,
+        "PCA+KMeans": 0.19626685514163725,
+        "KineticST": 0.2889313038135344
+      },
+      "nmi": {
+        "DEIM+NMF": 0.2698590272010906,
+        "HVG+NMF": 0.2709343271737149,
+        "HVG+NMF\n(no spatial)": 0.2709343271737149,
+        "PCA+KMeans": 0.2684282972402491,
+        "KineticST": 0.5171257651255574
+      },
+      "coh": {
+        "DEIM+NMF": 0.4435567905522751,
+        "HVG+NMF": 0.4435567905522751,
+        "HVG+NMF\n(no spatial)": 0.4435567905522751,
+        "PCA+KMeans": 0.3923237235151094,
+        "KineticST": 0.8534213268496006
+      },
+      "ent": {
+        "DEIM+NMF": 0.9776782313087551,
+        "HVG+NMF": 0.9784079685350988,
+        "HVG+NMF\n(no spatial)": 0.9784079685350988,
+        "PCA+KMeans": 0.9706090503174774,
+        "KineticST": 1.5354443928534796
+      },
+      "ari_base_range": [
+        0.19626685514163725,
+        0.22418027580668617
+      ],
+      "nmi_base_range": [
+        0.2684282972402491,
+        0.2709343271737149
+      ],
+      "coh_base_range": [
+        0.3923237235151094,
+        0.4435567905522751
+      ],
+      "ent_base_range": [
+        0.9706090503174774,
+        0.9784079685350988
+      ],
+      "sup_best_method": "DEIM-c(2000)",
+      "sup_best_val": 2.5200425645167965,
+      "sup_kin_val": 2.3380856407040174
+    }
+  ],
+  "label_free": [
+    {
+      "short_name": "Visium_CoronalS1",
+      "platform": "10x Visium",
+      "n_used": 2903,
+      "n_genes": 32285,
+      "K": 10,
+      "total_cells": null,
+      "ari": {
+        "DEIM+NMF": null,
+        "HVG+NMF": null,
+        "HVG+NMF\n(no spatial)": null,
+        "PCA+KMeans": null,
+        "KineticST": null
+      },
+      "nmi": {
+        "DEIM+NMF": null,
+        "HVG+NMF": null,
+        "HVG+NMF\n(no spatial)": null,
+        "PCA+KMeans": null,
+        "KineticST": null
+      },
+      "coh": {
+        "DEIM+NMF": 0.8226623157420951,
+        "HVG+NMF": 0.7595364014853156,
+        "HVG+NMF\n(no spatial)": 0.7599864971306403,
+        "PCA+KMeans": 0.7459210082142456,
+        "KineticST": 0.8779115562056937
+      },
+      "ent": {
+        "DEIM+NMF": 0.43918146015246096,
+        "HVG+NMF": 0.8202275533727874,
+        "HVG+NMF\n(no spatial)": 0.8210800560879586,
+        "PCA+KMeans": 0.953525346427646,
+        "KineticST": 1.0342832098204868
+      },
+      "ari_base_range": null,
+      "nmi_base_range": null,
+      "coh_base_range": [
+        0.7459210082142456,
+        0.8226623157420951
+      ],
+      "ent_base_range": [
+        0.43918146015246096,
+        0.953525346427646
+      ],
+      "sup_best_method": null,
+      "sup_best_val": null,
+      "sup_kin_val": null
+    },
+    {
+      "short_name": "Visium_CoronalS2",
+      "platform": "10x Visium",
+      "n_used": 2807,
+      "n_genes": 32285,
+      "K": 10,
+      "total_cells": null,
+      "ari": {
+        "DEIM+NMF": null,
+        "HVG+NMF": null,
+        "HVG+NMF\n(no spatial)": null,
+        "PCA+KMeans": null,
+        "KineticST": null
+      },
+      "nmi": {
+        "DEIM+NMF": null,
+        "HVG+NMF": null,
+        "HVG+NMF\n(no spatial)": null,
+        "PCA+KMeans": null,
+        "KineticST": null
+      },
+      "coh": {
+        "DEIM+NMF": 0.8187529083294556,
+        "HVG+NMF": 0.7714053047929269,
+        "HVG+NMF\n(no spatial)": 0.7717543043275942,
+        "PCA+KMeans": 0.7391810144253141,
+        "KineticST": 0.8734295020939972
+      },
+      "ent": {
+        "DEIM+NMF": 0.38290319965731723,
+        "HVG+NMF": 0.7897669922841207,
+        "HVG+NMF\n(no spatial)": 0.7892745099016668,
+        "PCA+KMeans": 0.9456997900391911,
+        "KineticST": 1.0424632104592584
+      },
+      "ari_base_range": null,
+      "nmi_base_range": null,
+      "coh_base_range": [
+        0.7391810144253141,
+        0.8187529083294556
+      ],
+      "ent_base_range": [
+        0.38290319965731723,
+        0.9456997900391911
+      ],
+      "sup_best_method": null,
+      "sup_best_val": null,
+      "sup_kin_val": null
+    },
+    {
+      "short_name": "SlideSeqV2_Kidney06",
+      "platform": "Slide-seqV2",
+      "n_used": 6000,
+      "n_genes": 10681,
+      "K": 10,
+      "total_cells": null,
+      "ari": {
+        "DEIM+NMF": null,
+        "HVG+NMF": null,
+        "HVG+NMF\n(no spatial)": null,
+        "PCA+KMeans": null,
+        "KineticST": null
+      },
+      "nmi": {
+        "DEIM+NMF": null,
+        "HVG+NMF": null,
+        "HVG+NMF\n(no spatial)": null,
+        "PCA+KMeans": null,
+        "KineticST": null
+      },
+      "coh": {
+        "DEIM+NMF": 0.24705882352941178,
+        "HVG+NMF": 0.24356248523505789,
+        "HVG+NMF\n(no spatial)": 0.24356248523505789,
+        "PCA+KMeans": 0.19702338766832034,
+        "KineticST": 0.40789038506969055
+      },
+      "ent": {
+        "DEIM+NMF": 0.9347461723788085,
+        "HVG+NMF": 0.9358361011643008,
+        "HVG+NMF\n(no spatial)": 0.9358361011643008,
+        "PCA+KMeans": 0.9785463753983752,
+        "KineticST": 2.8252145516500597
+      },
+      "ari_base_range": null,
+      "nmi_base_range": null,
+      "coh_base_range": [
+        0.19702338766832034,
+        0.24705882352941178
+      ],
+      "ent_base_range": [
+        0.9347461723788085,
+        0.9785463753983752
+      ],
+      "sup_best_method": null,
+      "sup_best_val": null,
+      "sup_kin_val": null
+    },
+    {
+      "short_name": "SlideSeqV2_Kidney07",
+      "platform": "Slide-seqV2",
+      "n_used": 6000,
+      "n_genes": 19896,
+      "K": 10,
+      "total_cells": null,
+      "ari": {
+        "DEIM+NMF": null,
+        "HVG+NMF": null,
+        "HVG+NMF\n(no spatial)": null,
+        "PCA+KMeans": null,
+        "KineticST": null
+      },
+      "nmi": {
+        "DEIM+NMF": null,
+        "HVG+NMF": null,
+        "HVG+NMF\n(no spatial)": null,
+        "PCA+KMeans": null,
+        "KineticST": null
+      },
+      "coh": {
+        "DEIM+NMF": 0.24323814019353315,
+        "HVG+NMF": 0.25942884116119896,
+        "HVG+NMF\n(no spatial)": 0.2598064668397451,
+        "PCA+KMeans": 0.19367476988435214,
+        "KineticST": 0.40519235308000945
+      },
+      "ent": {
+        "DEIM+NMF": 0.9219658326539958,
+        "HVG+NMF": 0.8953872560450433,
+        "HVG+NMF\n(no spatial)": 0.8952003644018731,
+        "PCA+KMeans": 0.9806717367377873,
+        "KineticST": 2.856540488291679
+      },
+      "ari_base_range": null,
+      "nmi_base_range": null,
+      "coh_base_range": [
+        0.19367476988435214,
+        0.2598064668397451
+      ],
+      "ent_base_range": [
+        0.8952003644018731,
+        0.9806717367377873
+      ],
+      "sup_best_method": null,
+      "sup_best_val": null,
+      "sup_kin_val": null
+    },
+    {
+      "short_name": "SlideSeqV2_Kidney08",
+      "platform": "Slide-seqV2",
+      "n_used": 6000,
+      "n_genes": 18703,
+      "K": 10,
+      "total_cells": null,
+      "ari": {
+        "DEIM+NMF": null,
+        "HVG+NMF": null,
+        "HVG+NMF\n(no spatial)": null,
+        "PCA+KMeans": null,
+        "KineticST": null
+      },
+      "nmi": {
+        "DEIM+NMF": null,
+        "HVG+NMF": null,
+        "HVG+NMF\n(no spatial)": null,
+        "PCA+KMeans": null,
+        "KineticST": null
+      },
+      "coh": {
+        "DEIM+NMF": 0.2269694819020582,
+        "HVG+NMF": 0.22602318429145968,
+        "HVG+NMF\n(no spatial)": 0.2260704991719896,
+        "PCA+KMeans": 0.17686302342086585,
+        "KineticST": 0.3745919091554294
+      },
+      "ent": {
+        "DEIM+NMF": 0.9110108560489143,
+        "HVG+NMF": 0.9113624250013572,
+        "HVG+NMF\n(no spatial)": 0.9115539551255002,
+        "PCA+KMeans": 0.9863652846652403,
+        "KineticST": 2.8706982386579583
+      },
+      "ari_base_range": null,
+      "nmi_base_range": null,
+      "coh_base_range": [
+        0.17686302342086585,
+        0.2269694819020582
+      ],
+      "ent_base_range": [
+        0.9110108560489143,
+        0.9863652846652403
+      ],
+      "sup_best_method": null,
+      "sup_best_val": null,
+      "sup_kin_val": null
+    }
+  ],
+  "n_datasets": 34,
+  "n_categories": 7,
+  "n_real_sections": 24,
+  "n_labeled": 29,
+  "n_labelfree": 5
+}
