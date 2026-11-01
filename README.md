@@ -11,6 +11,10 @@ Analysis scripts for the KineticST manuscript: benchmarking, figure generation, 
 - `asymmetry_analysis.py` — Asymmetry analysis
 - `run_asymmetry_analysis.py` — Runner for asymmetry analysis
 
+## Package
+
+- `spatial_nmf_deim/` — Graph-regularized NMF with DEIM/HVG feature selection (baseline methods: DEIM+NMF, HVG+NMF, PCA+KMeans, supervised DEIM/mRMR/Laplacian/RF/LR-L1)
+
 ## Requirements
 
 ```bash
